@@ -1,4 +1,3 @@
-// ===== Task 5. Mouse Events =====
 const mouseBox = document.getElementById("mouseBox");
 
 mouseBox.addEventListener("mouseover", function () {
@@ -6,10 +5,9 @@ mouseBox.addEventListener("mouseover", function () {
 });
 
 mouseBox.addEventListener("mouseout", function () {
-  mouseBox.style.backgroundColor = "lightblue";    // original color
+  mouseBox.style.backgroundColor = "lightblue";    
 });
 
-// ===== Task 6. Keyboard Events =====
 const textInput = document.getElementById("textInput");
 const typedText = document.getElementById("typedText");
 
@@ -17,7 +15,6 @@ textInput.addEventListener("keyup", function () {
   typedText.textContent = textInput.value;
 });
 
-// ===== Task 7. Calculator =====
 const num1 = document.getElementById("num1");
 const num2 = document.getElementById("num2");
 const operation = document.getElementById("operation");
