@@ -1,0 +1,11 @@
+body { min-height: 100vh; display: flex; flex-direction: column; }
+main { flex: 1; max-width: 800px; }
+
+.output { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 6px; padding: 12px; min-height: 48px; }
+
+.style-box { padding: 20px; margin-bottom: 12px; border: 1px solid #adb5bd; border-radius: 6px; background: #ffffff; font-size: 16px; }
+
+.mouse-box { width: 100%; max-width: 300px; height: 120px; display: flex; align-items: center; justify-content: center; background: lightblue; border-radius: 8px; font-weight: bold; }
+
+.completed { text-decoration: line-through; color: #6c757d; }
+.task-text { cursor: pointer; flex: 1; }
