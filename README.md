@@ -21,11 +21,3 @@ index.html, part2.html, part3.html, part4.html
 style.css
 part1.js, part2.js, part3.js, part4.js
 ```
-
-## How to run
-1. Clone the repository or download the ZIP.
-2. Open `index.html` in a browser (internet is needed for the Bootstrap CDN).
-3. Open the console with F12 to see the output of Task 0 and Task 1.
-
-## How to publish (GitHub Pages)
-Repository -> Settings -> Pages -> Source: `main` branch, `/ (root)` -> Save.
