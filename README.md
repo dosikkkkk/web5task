@@ -1,8 +1,8 @@
 # Assignment #5. JavaScript Basics (DOM Manipulation & Events)
 
-**Student:** Your Full Name
-**Group:** Your Group
-**Live site:** https://YOUR-USERNAME.github.io/YOUR-REPO/
+**Student:** Dossymzhan Rashadinov
+**Group:** SE-2527
+**Live site:** (https://dosikkkkk.github.io/web5task/)
 
 ## Description
 A multi-page website with JavaScript tasks: variables and operators, DOM manipulation, mouse and keyboard events, a calculator and a To-Do app. Every page has a navbar that links to all parts.
