@@ -1,11 +1,9 @@
-// Tasks are stored temporarily in an array (no database / localStorage)
 let tasks = [];
 
 const taskInput = document.getElementById("taskInput");
 const taskList = document.getElementById("taskList");
 const counter = document.getElementById("counter");
 
-// Draws the whole list from the array
 function render() {
   taskList.innerHTML = "";
 
@@ -17,10 +15,10 @@ function render() {
     span.className = "task-text";
     span.textContent = tasks[i].text;
     if (tasks[i].done) {
-      span.classList.add("completed");             // strike-through
+      span.classList.add("completed");           
     }
     span.addEventListener("click", function () {
-      tasks[i].done = !tasks[i].done;              // mark / unmark
+      tasks[i].done = !tasks[i].done;             
       render();
     });
 
@@ -28,7 +26,7 @@ function render() {
     deleteBtn.className = "btn btn-sm btn-danger";
     deleteBtn.textContent = "Delete";
     deleteBtn.addEventListener("click", function () {
-      tasks.splice(i, 1);                          // remove from array
+      tasks.splice(i, 1);                         
       render();
     });
 
@@ -46,7 +44,7 @@ function render() {
 function addTask() {
   const value = taskInput.value.trim();
   if (value === "") {
-    return;                                        // ignore empty input
+    return;                                       
   }
   tasks.push({ text: value, done: false });
   taskInput.value = "";
